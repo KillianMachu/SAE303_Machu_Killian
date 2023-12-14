@@ -1,0 +1,25 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap";
+* {
+  color: #000;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+body > h1 {
+  text-align: center;
+  color: #18aa61;
+}
+
+.compare {
+  display: flex;
+}
+
+.graphgroup:not(.graph3) {
+  border-bottom: .2em solid #000;
+  padding-bottom: 1em;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

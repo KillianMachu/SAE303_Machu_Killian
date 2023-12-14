@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>SAE 303 (Visualisation de donnée) Killian Machu</title>
+    <link rel="stylesheet" href="/index.2cdaf7bc.css">
+  </head>
+  <body>
+    <h1>SAE 303 (Visualisation de donnée) de Killian Machu</h1>
+    <div class="graphgroup graph1">
+      <h1>Comparaison des temps que met chaque solveur pour résoudre chaque problème d'une famille</h1>
+      <div class="compare">
+        <h2>Comparer entre : 
+        <select name="programselect" id="firstgraph_firstprog"></select>
+         et 
+        <select name="programselect" id="firstgraph_secprog"></select>
+         Selon : 
+        <select name="programselect" id="firstgraph_probfamily"></select></h2>
+      </div>
+      <p>Lorsque les points tout en haut du graphique sont plus gros que les autres, le programme n'a pas réussi à résoudre le problème</p>
+      <div style="width: 1000px"><canvas id="graph1"></canvas></div>
+    </div>
+
+    <div class="graphgroup graph2">
+      <h1>Pourcentage de réussite de chaque solveur par rapport à toues les réussites</h1>
+      <div style="width: 800px"><canvas id="graph2"></canvas></div>
+    </div>
+
+    <div class="graphgroup graph3">
+      <h1>Affichage du temps minimum et maximum</h1>
+      <p>Les données minimum étant tellement petites, elles ne sont pas visible si le maximum l'est. N'hésitez pas à cliquer sur maximum pour le cacher. ;)</p>
+      <div style="width: 1000px"><canvas id="graph3"></canvas></div>
+    </div>
+
+    <script src="/index.ad096df2.js" defer=""></script>
+    <script src="/index.129f578a.js" defer=""></script>
+    <script src="/index.3e2d7f63.js" defer=""></script>
+  </body>
+</html>
